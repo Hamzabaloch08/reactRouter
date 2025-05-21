@@ -33,16 +33,14 @@ It enhances user experience with seamless transitions and structured navigation.
 
 ---
 
----
-
 ## 📦 Getting Started
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/react-router-spa.git
+git clone https://github.com/Hamzabaloch08/reactRouter
 
 # Navigate into the project
-cd react-router-spa
+cd reactRouter
 
 # Install dependencies
 npm install
