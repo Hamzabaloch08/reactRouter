@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Contect from "./components/Contect/Contect";
+import User from "./components/User/User";
+import Github from "./components/Github/Github";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
       },
       { path: "about", element: <About /> },
       { path: "contect", element: <Contect /> },
+      {
+        path: "github",
+        element: <Github />,
+      },
+      {
+        path: "user/:userId",
+        element: <User />,
+      },
     ],
   },
 ]);
